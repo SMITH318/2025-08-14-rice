@@ -67,10 +67,9 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong> &nbsp;
-  &nbsp;
-<strong>There is still space! Join the waitlist, and you will receive an email to accept a workshop spot.</strong>
+<strong><p>Some adblockers block the registration window. If you do not see the
+  registration box below, please check your adblocker settings.</p>
+<p>There is still space! Join the waitlist, and you will receive an email to accept a workshop spot.</p></strong>
 <div id="eventbrite-widget-container"></div>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 <script type="text/javascript">
