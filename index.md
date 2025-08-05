@@ -68,7 +68,8 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
+  registration box below, please check your adblocker settings.</strong> &nbsp;
+  &nbsp;
 <strong>There is still space! Join the waitlist, and you will receive an email to accept a workshop spot.</strong>
 <div id="eventbrite-widget-container"></div>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
